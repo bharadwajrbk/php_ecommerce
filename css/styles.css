@@ -1,0 +1,108 @@
+.view{
+   margin-left: 200px;
+    color: black;
+}
+.slideshow{
+    display: none;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-align:  center;
+    color: red;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+li a:hover:not(.active){
+    background-color: gray;
+}
+.active{
+    background-color: skyblue;
+}
+header{
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-display:fallback;
+    background-color: transparent;
+    color: black;
+}
+h1{
+    margin-left: 500px;
+}
+.images{
+    max-width: 1250px;
+    max-height: 1250px;
+    text-align: center;
+}
+input{
+    font-size: 30px;
+    margin-left: 750px;
+}
+body{
+    background-image: url("../images/theme.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+th{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: sandybrown;
+}
+.c{
+    color: lightgreen;
+}
+td{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    color: black;
+}
+thead{
+    margin-left: 500px;
+    
+}
+legend{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    width: 500px;
+}
+fieldset{
+    height: 300px;
+    width: 550px;
+    text-align:center;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    align-content: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+table{
+    width: 65%;
+    height: 750px;
+    margin-left: 25%;
+    align-content: center;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
